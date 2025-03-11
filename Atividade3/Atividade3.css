@@ -1,0 +1,116 @@
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    /* Tipo de formatação */
+    font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    /* Sublinhado */
+}
+
+/* Passar o mouse */
+ a:hover {
+    color: #ffffff;
+ }
+
+ /* Cabeçalho */
+ header {
+    background-color: #273354;
+    /* Laranja */
+    color: #ffffff;
+    padding: 10px 20px;
+ }
+
+ /* Navegação */
+ nav {
+    background-color: #4abcdf;
+    float: left;
+    width: 100%;
+ }
+
+ /* Colocando no nav a lista não ordenado, alterando o estilo */
+ nav ul {
+    list-style: none;
+    margin-bottom: 0;
+ }
+
+ nav ul li {
+/* inline mas pode alterar a largura,
+    altura, margens e prenchimento */
+    display: inline-block;
+    margin-right: 10px;
+ }
+
+ nav ul li a {
+    padding: 5px 10px;
+ }
+
+ /* Mostra a cor quando passar o mouse */
+ nav ul li a:hover {
+    color: #6872c2;
+ }
+
+/* Seçoes */
+section {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+aside {
+    background-color: #002aff68;
+    color: #333333;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    /*float: right;
+    width: 25%;*/
+}
+
+footer {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: circle;
+    color: #000000;
+}
+
+ol li {
+    color: #000000;
+}
+
+pre {
+    background-color: #e0e0e0;
+    color: #333333;
+    padding: 5px 10px;
+}
+
+img {
+    display: block;
+    /* Padrão é inline */
+    margin: 0 auto;
+    /* Margem automática nos lados para centralizar */
+    border: 1px solid #e0e0e0;
+    max-width: 100%;
+    /* imagem não ultrapassar a largura do conteiner */
+    height: auto;
+    /* mantém a proporção da altura ao redimensionar a largura */
+    text-align: center;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+/* ATENÇÃO: colocar o aside abaixo do nav */
