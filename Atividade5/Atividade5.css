@@ -1,0 +1,89 @@
+.quadrado 
+{
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 420px)
+{
+    .quadrado 
+    {
+        background-color: gray;
+    }
+    h1::before 
+    {
+        content: "Cinza";
+    }
+}
+
+@media (min-width: 421px) and (max-width: 768px)
+{
+    .quadrado 
+    {
+        background-color: orange;
+    }
+    h1::before 
+    {
+        content: "Laranja";
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px)
+{
+    .quadrado 
+    {
+        background-color: pink;
+    }
+    h1::before 
+    {
+        content: "Rosa";
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px)
+{
+    .quadrado 
+    {
+        background-color: brown;
+    }
+    h1::before 
+    {
+        content: "marrom";
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px)
+{
+    .quadrado 
+    {
+        background-color: purple;
+    }
+    h1::before 
+    {
+        content: "roxo";
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1920px)
+{
+    .quadrado 
+    {
+        background-color: yellow;
+    }
+    h1::before 
+    {
+        content: "amarelo";
+    }
+}
+
+@media (min-width: 1920px)
+{
+    .quadrado 
+    {
+        background-color: green;
+    }
+    h1::before 
+    {
+        content: "verde";
+    }
+}
